@@ -1,0 +1,20 @@
+@import url(./styles/head.css);
+@import url(./styles/font.css);
+
+
+
+
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+ul,li,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
