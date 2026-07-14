@@ -1,9 +1,12 @@
 @import url(./styles/head.css);
 @import url(./styles/font.css);
+@import url(./styles/about.css);
+@import url(./styles/color.css);
 
 
-
-
+html{
+    scroll-behavior: smooth;
+}
 .container-fluid{
     width: 100%;
 }

@@ -1,0 +1,41 @@
+.about-text{
+    text-align: center;
+    margin: 100px auto;
+    width: 1000px;
+}
+.about-text h2{
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+}
+.about-text h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    margin-top: -10px;
+}
+.about-line{
+    width: 60px;
+    height: 3px;
+    margin: 40px auto;
+    background: rgb(252, 142, 142);
+}
+.about-text p{
+    color: rgb(166, 166, 166);
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.about-gallery{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.about-img{
+    flex: 1;
+}
+.about-img img{
+    display: block;
+    height: 250px;
+    width: 100%;
+}
+.about-bar{
+    background-color: rgb(152, 241, 229);
+}
