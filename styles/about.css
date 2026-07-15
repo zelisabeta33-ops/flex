@@ -58,6 +58,7 @@
 .super-text h3{
     text-transform: uppercase;
     color: azure;
+    font-family: 'Montserrat';
     margin-top: 5px;
     margin-bottom: 10px;
 }
@@ -72,7 +73,4 @@
 .third-img:hover .super-team{
     opacity: 1;
     transform: translate(-15px, -15px);
-}
-.about-bar{
-    background-color: rgb(152, 241, 229);
 }

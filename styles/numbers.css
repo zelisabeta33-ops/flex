@@ -1,0 +1,30 @@
+.numbers{
+    background-color: rgb(152, 241, 229);
+    height: 200px;
+}
+.numberbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.number-item{
+    flex: 1;
+    text-align: center;
+    border-left: 1px solid rgba(240, 255, 255, 0.582);
+    height: 200px;
+}
+.number-item:last-child{
+    border-right: 1px solid rgba(240, 255, 255, 0.582);
+}
+.number-item h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.number-item p{
+    color: azure;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 200;
+}

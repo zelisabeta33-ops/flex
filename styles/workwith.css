@@ -1,0 +1,52 @@
+.we-work-with-head{
+    text-align: center;
+    margin: 100px auto;
+    width: 1000px;
+}
+.we-work-with-head h2{
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+}
+.we-work-with-head h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    margin-top: -10px;
+}
+.we-work-with-line{
+    width: 60px;
+    height: 3px;
+    margin: 40px auto;
+    background: rgb(252, 142, 142);
+}
+.amazing-services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.amazing-services-item{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.amazing-services-item img{
+    width: 45px;
+    height: 40px;
+}
+.amazing-services-item h3{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-top: 0;
+    font-size: 15px;
+}
+.amazing-services-item p{
+    color: rgb(166, 166, 166);
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.amazing-services-line{
+    grid-column: 1/4;
+    background: rgba(166, 166, 166, 0.549);
+    height: 1px;
+}
