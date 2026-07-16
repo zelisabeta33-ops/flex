@@ -1,0 +1,96 @@
+.service-text{
+    text-align: center;
+    margin: 120px auto;
+    width: 1000px;
+}
+.service-text h2{
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+}
+.service-text h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    margin-top: -10px;
+}
+.service-line{
+    width: 60px;
+    height: 3px;
+    margin: 40px auto;
+    background: rgb(252, 142, 142);
+}
+.service-text p{
+    color: rgb(166, 166, 166);
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.service-section{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 80px 0;
+}
+.service-img{
+    flex: 1;
+}
+.service-img img{
+    object-fit: cover;
+}
+.service-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.service-item{
+    border: 1px solid rgba(166, 166, 166, 0.436);
+}
+.service-input{
+    position: absolute;
+    opacity: 0;
+}
+.item-head{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.item-head img{
+    margin-right: 15px;
+}
+.item-head h3{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(55, 55, 55);
+    text-transform: uppercase;
+    margin: 0;
+}
+.item-head .arrow{
+    margin-left: auto;
+    width: 20px;
+    height: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(166, 166, 166);
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+    margin-bottom: -10px;
+}
+.service-item:not(:first-child) .item-head .arrow{
+    transform: rotate(0deg);
+    margin-top: -20px;
+}
+.item-text{
+    font-family: 'Roboto';
+    line-height: 1.6;
+    font-size: 14px;
+    font-style: italic;
+    padding: 0 20px;
+    color: rgb(166, 166, 166);
+    padding: 15px 40px 20px 20px;
+    border-top: 1px solid rgba(166, 166, 166, 0.77);
+    background-image: linear-gradient(rgb(152, 241, 229), rgb(152, 241, 229)), linear-gradient(rgba(236, 236, 236, 0.6), rgba(236, 236, 236, 0.6));
+    background-repeat: no-repeat, no-repeat;
+    background-size: 4px 60px, 4px 110px;
+    background-position: calc(100% - 25px) 15px, calc(100% - 25px) 15px;
+}

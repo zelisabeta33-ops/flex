@@ -1,0 +1,45 @@
+.device{
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),  url(../img/White.png);
+    height: 820px;
+}
+.device-head{
+    text-align: center;
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 65px;
+}
+.device-head h2{
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+}
+.device-head h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    margin-top: -10px;
+}
+.device-line{
+    width: 60px;
+    height: 3px;
+    margin: 30px auto;
+    background: rgb(252, 142, 142);
+}
+.devices{
+    text-align: center;
+}
+.devices .tablet{
+    margin-right: -100px;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+.devices .phone{
+    margin-bottom: -60px;
+    margin-right: -80px;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+.devices:has(.tablet:hover, .phone:hover) .tablet{
+    transform: translate(-40px, 0);
+}
+.devices:has(.tablet:hover, .phone:hover) .phone{
+    transform: scale(1.1);
+}
