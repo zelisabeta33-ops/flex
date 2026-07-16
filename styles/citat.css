@@ -1,0 +1,56 @@
+.citat{
+    background: rgba(244, 243, 243, 0.63);
+    padding: 60px 0;
+}
+.citat-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.citat-content img{
+    cursor: pointer;
+}
+.citat-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 800px;
+}
+.citat-text p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(166, 166, 166);
+    font-style: italic;
+    font-family: 'Roboto';
+    font-weight: 200;
+}
+.citat-author{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.citat-line{
+    width: 60px;
+    height: 3px;
+    background-color: rgb(252, 142, 142);
+}
+.citat-author h2{
+    font-family: 'Kaushan Script';
+    font-weight: 300;
+    font-size: 23px;
+    margin: 0;
+}
+.citat-arrow, .citat-arrow-right{
+    color: rgb(166, 166, 166);
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.citat-arrow{
+    transform: rotate(-90deg);
+}
+.citat-arrow-right{
+    transform: rotate(90deg);
+}

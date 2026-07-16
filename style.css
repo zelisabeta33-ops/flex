@@ -6,7 +6,8 @@
 @import url(./styles/workwith.css);
 @import url(./styles/phone.css);
 @import url(./styles/service.css);
-
+@import url(./styles/citat.css);
+@import url(./styles/team.css);
 
 html{
     scroll-behavior: smooth;

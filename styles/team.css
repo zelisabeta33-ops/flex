@@ -1,0 +1,28 @@
+.team-text{
+    text-align: center;
+    margin: 100px auto;
+    width: 1000px;
+}
+.team-text h2{
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+}
+.team-text h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    margin-top: -10px;
+}
+.team-line{
+    width: 60px;
+    height: 3px;
+    margin: 40px auto;
+    background: rgb(252, 142, 142);
+}
+.team-text p{
+    color: rgb(166, 166, 166);
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.team-galerry .team-first{
+    background-image: url(../img/mee1.png);
+}
