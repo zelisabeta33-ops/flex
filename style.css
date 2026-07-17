@@ -1,13 +1,17 @@
-@import url(./styles/head.css);
+@import url(./styles/components/head.css);
 @import url(./styles/font.css);
-@import url(./styles/about.css);
+@import url(./styles/components/about.css);
 @import url(./styles/color.css);
-@import url(./styles/numbers.css);
-@import url(./styles/workwith.css);
-@import url(./styles/phone.css);
-@import url(./styles/service.css);
-@import url(./styles/citat.css);
-@import url(./styles/team.css);
+@import url(./styles/components/numbers.css);
+@import url(./styles/components/workwith.css);
+@import url(./styles/components/phone.css);
+@import url(./styles/components/service.css);
+@import url(./styles/components/citat.css);
+@import url(./styles/components/team.css);
+@import url(./styles/components/hipster.css);
+@import url(./styles/components/work.css);
+@import url(./styles/components/workimg.css);
+
 
 html{
     scroll-behavior: smooth;

@@ -1,0 +1,25 @@
+.work-gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.work-img{
+    height: 385px;
+}
+.work-gallery .work-img img{
+    height: 100%;
+    width: 100%;
+}
+.work-gallery .five img{
+    height: 770px;
+}
+.third{
+    grid-row: 2/3;
+}
+.four{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.five{
+    grid-column: 3/4;
+    grid-row: 1/3;
+}

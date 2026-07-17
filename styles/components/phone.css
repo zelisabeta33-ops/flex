@@ -1,5 +1,5 @@
 .device{
-    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),  url(../img/White.png);
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),  url(../../img/White.png);
     height: 820px;
 }
 .device-head{
