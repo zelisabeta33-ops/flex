@@ -3,9 +3,10 @@
     margin: 120px auto;
     width: 1000px;
 }
-.service-text h2{
+.service-text h2 a{
     font-family: 'Kaushan Script';
     font-weight: 400;
+    color: black;
 }
 .service-text h1{
     text-transform: uppercase;

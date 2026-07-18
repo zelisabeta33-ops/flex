@@ -53,12 +53,8 @@ header{
 .item-link:hover{
     color:rgb(250, 250, 147);
     cursor: pointer;
-}
-.active{
-    color:rgb(250, 250, 147);
     padding-bottom: 5px;
     border-bottom: 2px solid rgb(250, 250, 147);
-    cursor: pointer;
 }
 .mogo-content{
     text-align: center;

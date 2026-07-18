@@ -1,29 +1,25 @@
-.work-text{
-    text-align: center;
-    margin: 100px auto;
-    width: 1000px;
+.clients{
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../../img/mountain.png);
+    height: 827px;
 }
-.work-text h2{
+.client-head{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.client-head h2{
     font-family: 'Kaushan Script';
     font-weight: 400;
-    color: black;
 }
-.work-text h1{
+.client-head h1{
     text-transform: uppercase;
     font-family: 'Montserrat';
     margin-top: -10px;
 }
-.work-text h1 a{
-    color: black;
-}
-.work-line{
+.client-line{
     width: 60px;
     height: 3px;
     margin: 40px auto;
     background: rgb(252, 142, 142);
 }
-.work-text p{
-    color: rgb(166, 166, 166);
-    font-family: 'Roboto';
-    font-size: 15px;
-}
+

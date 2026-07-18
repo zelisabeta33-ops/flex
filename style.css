@@ -11,7 +11,7 @@
 @import url(./styles/components/hipster.css);
 @import url(./styles/components/work.css);
 @import url(./styles/components/workimg.css);
-
+@import url(./styles/components/clients.css);
 
 html{
     scroll-behavior: smooth;

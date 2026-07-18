@@ -12,6 +12,9 @@
     font-family: 'Montserrat';
     margin-top: -10px;
 }
+.about-text h1 a{
+    color: black;
+}
 .about-line{
     width: 60px;
     height: 3px;

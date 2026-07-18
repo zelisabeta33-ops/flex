@@ -54,3 +54,7 @@
 .citat-arrow-right{
     transform: rotate(90deg);
 }
+
+.citat-second .citat-content{
+    margin-bottom: 100px;
+}
