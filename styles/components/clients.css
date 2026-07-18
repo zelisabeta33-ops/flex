@@ -5,6 +5,7 @@
 .client-head{
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 60px;
     padding-top: 100px;
 }
 .client-head h2{
@@ -23,3 +24,47 @@
     background: rgb(252, 142, 142);
 }
 
+.client-main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 60px;
+}
+.client-content{
+    display: flex;
+    gap: 20px;
+}
+.client-content img{
+    width: 114px;
+    height: 113px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.client-content img:hover{
+    transform: scale(1.1);
+}
+.client-text h3{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: black;
+    font-size: 15px;
+}
+.client-text h4{
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+    font-family: 'Roboto';
+    font-weight: 200;
+    margin-top: -8px;
+}
+.client-text p{
+    color: rgb(146, 146, 146);
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.6;
+}
+.client-line-text{
+    width: 60px;
+    height: 3px;
+    background: rgb(252, 142, 142);
+}

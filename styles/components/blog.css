@@ -1,0 +1,24 @@
+.blog-head{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-top: 100px;
+}
+.blog-head h2{
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+}
+.blog-head h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    margin-top: -10px;
+}
+.blog-head h1 a{
+    color: black;
+}
+.blog-line{
+    width: 60px;
+    height: 3px;
+    margin: 40px auto;
+    background: rgb(252, 142, 142);
+}
