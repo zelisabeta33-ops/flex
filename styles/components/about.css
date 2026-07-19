@@ -14,6 +14,10 @@
 }
 .about-text h1 a{
     color: black;
+    transition: color 0.3s ease;
+}
+.about-text h1 a:hover{
+    color: rgb(59, 197, 181);
 }
 .about-line{
     width: 60px;

@@ -15,6 +15,10 @@
 }
 .work-text h1 a{
     color: black;
+    transition: color 0.3s ease;
+}
+.work-text h1 a:hover{
+    color: rgb(59, 197, 181);
 }
 .work-line{
     width: 60px;

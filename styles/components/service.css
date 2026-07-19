@@ -7,6 +7,10 @@
     font-family: 'Kaushan Script';
     font-weight: 400;
     color: black;
+    transition: color 0.3s ease;
+}
+.service-text h2 a:hover{
+    color: rgb(59, 197, 181);
 }
 .service-text h1{
     text-transform: uppercase;
