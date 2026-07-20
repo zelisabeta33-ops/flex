@@ -14,7 +14,7 @@
 @import url(./styles/components/clients.css);
 @import url(./styles/components/blog.css);
 @import url(./styles/components/map.css);
-
+@import url(./styles/components/footer.css);
 
 html{
     scroll-behavior: smooth;
@@ -32,4 +32,7 @@ ul,li,ol{
 }
 a{
     text-decoration: none;
+}
+section{
+    scroll-margin-top: 80px;
 }
