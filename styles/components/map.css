@@ -22,9 +22,16 @@
     font-family: 'Montserrat';
     margin-top: 13px;
     color: rgb(252, 142, 142);
+    opacity: 0;
+    transition: opacity 0.4s ease;
 }
 .map-line{
     width: 60px;
     height: 3px;
     background: rgb(252, 142, 142);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+.map-content a:hover ~ h3, .map-content a:hover ~ .map-line{
+    opacity: 1;
 }
