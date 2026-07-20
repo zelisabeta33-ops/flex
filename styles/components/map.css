@@ -2,6 +2,9 @@
     background-image: url(../../img/Map.png);
     margin-top: 100px;
     height: 182px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .map-content{
     display: flex;
